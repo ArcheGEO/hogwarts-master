@@ -1,0 +1,45 @@
+{
+  "name": "frontend",
+  "version": "4.0.0",
+  "description": "A Vue.js & Spring Boot example project",
+  "author": "Jonas Hecht <jonas.hecht@codecentric.de>",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules target",
+    "serve": "vue-cli-service serve",
+    "test:unit": "vue-cli-service test:unit --coverage",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test": "vue-cli-service test:unit && vue-cli-service test:e2e",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "bootstrap": "4.6.0",
+    "bootstrap-vue": "2.21.2",
+    "core-js": "3.9.1",
+    "jquery": "3.6.0",
+    "nanocolors": "^0.2.12",
+    "uuid": "^8.3.2",
+    "vue": "^2.6.12",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "3.5.1",
+    "vue-socket.io-extended": "^4.2.0",
+    "vue-tabs-component": "^1.5.0",
+    "vuex": "3.6.2",
+    "xlsx": "^0.17.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
+    "@vue/cli-plugin-e2e-nightwatch": "4.5.12",
+    "@vue/cli-plugin-router": "4.5.12",
+    "@vue/cli-plugin-unit-jest": "4.5.12",
+    "@vue/cli-plugin-vuex": "4.5.12",
+    "@vue/cli-service": "4.5.12",
+    "@vue/test-utils": "1.1.3",
+    "chromedriver": "89.0.0",
+    "geckodriver": "1.22.2",
+    "node-sass": "5.0.0",
+    "sass-loader": "10.1.1",
+    "vue-template-compiler": "2.6.12"
+  }
+}

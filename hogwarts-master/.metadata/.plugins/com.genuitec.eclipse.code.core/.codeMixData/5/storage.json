@@ -1,0 +1,14 @@
+{
+    "telemetry.machineId": "fe649ab8177554a046ed5551339ef48606aa8506609b23fdb8ffb8d27fe7c190",
+    "openedPathsList": {
+        "workspaces3": [
+            {
+                "id": "b6ede0b6c03de64a92bd20fa76f79562",
+                "configURIPath": "file:///d%3A/workspace/hogwarts-master/hogwarts-master/.metadata/codemix.code-workspace"
+            }
+        ],
+        "files2": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#221a0f"
+}

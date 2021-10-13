@@ -1,0 +1,76 @@
+/*custom.css*/
+/* add specific customization of web pages here */
+.navbar-brand
+{
+  font-family: 'Lato', sans-serif;
+  color:grey;
+  font-size: 30px;
+  height: 100%;
+  margin: 0px;
+  padding: 0;
+}
+.button{
+  margin-left:10px;
+}
+.summary_label{
+  margin-right:10px;
+}
+.summary_label_error{
+  margin-right:10px;
+  color:red;
+}
+.tab_card{
+  width: 100%;;
+}
+.pre-formatted {
+  white-space: pre;
+}
+.text-danger {
+  color:red;
+}
+.text-info {
+  color:blue;
+}
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  flex-direction: column;
+  user-select: none;
+}
+.loading-circle {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  border-left-color: #ababab;
+  animation: circleanimation .45s linear infinite
+}
+.loading-text {
+  margin-top: 100px;
+  color: #808080;
+  font-size: 12px;
+  /*text-align: center;*/
+  white-space: pre;
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+@keyframes circleanimation {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+/*END custom*/
