@@ -1,0 +1,54 @@
+2021-10-14 14:17:51.206  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : Starting SpringBootVuejsApplication using Java 11.0.12 on DMAL-Laptop with PID 71472 (C:\Users\Lab usser\Documents\GitHub\hogwarts-master\hogwarts-master\backend\target\classes started by Lab usser in C:\Users\Lab usser\Documents\GitHub\hogwarts-master)
+2021-10-14 14:17:51.225  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : No active profile set, falling back to default profiles: default
+2021-10-14 14:17:54.108  INFO 71472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 14:17:54.109  INFO 71472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-10-14 14:17:54.264  INFO 71472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 14:17:54.480  INFO 71472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-14 14:17:54.740  INFO 71472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-14 14:17:55.217  INFO 71472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-14 14:17:55.330  INFO 71472 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-10-14 14:17:55.584  INFO 71472 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-14 14:17:55.793  INFO 71472 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-10-14 14:17:56.213  WARN 71472 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): de.jonashackt.springbootvuejs.domain.gdsrecordviewId
+2021-10-14 14:17:56.214  WARN 71472 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): de.jonashackt.springbootvuejs.domain.gdsrecordviewId
+2021-10-14 14:17:56.651  INFO 71472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-14 14:17:56.814  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : url=jdbc:postgresql://localhost:5432/hogwarttest
+2021-10-14 14:17:56.815  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : user=postgres
+2021-10-14 14:17:56.818  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : password=trove
+2021-10-14 14:17:58.210  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : Started SpringBootVuejsApplication in 7.638 seconds (JVM running for 8.462)
+2021-10-14 16:21:50.738  INFO 71472 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-14 16:21:50.761  INFO 71472 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-14 16:21:50.981  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : Starting SpringBootVuejsApplication using Java 11.0.12 on DMAL-Laptop with PID 71472 (C:\Users\Lab usser\Documents\GitHub\hogwarts-master\hogwarts-master\backend\target\classes started by Lab usser in C:\Users\Lab usser\Documents\GitHub\hogwarts-master)
+2021-10-14 16:21:50.983  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : No active profile set, falling back to default profiles: default
+2021-10-14 16:21:51.786  INFO 71472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 16:21:51.787  INFO 71472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-10-14 16:21:51.862  INFO 71472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 16:21:51.930  INFO 71472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-10-14 16:21:51.986  INFO 71472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-10-14 16:21:52.059  INFO 71472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-14 16:21:52.069  INFO 71472 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-10-14 16:21:52.125  WARN 71472 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): de.jonashackt.springbootvuejs.domain.gdsrecordviewId
+2021-10-14 16:21:52.126  WARN 71472 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): de.jonashackt.springbootvuejs.domain.gdsrecordviewId
+2021-10-14 16:21:52.197  INFO 71472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-14 16:21:52.255  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : url=jdbc:postgresql://localhost:5432/hogwarttest
+2021-10-14 16:21:52.255  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : user=postgres
+2021-10-14 16:21:52.256  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : password=trove
+2021-10-14 16:21:52.668  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : Started SpringBootVuejsApplication in 1.741 seconds (JVM running for 7442.92)
+2021-10-14 16:21:56.479  INFO 71472 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-10-14 16:21:56.492  INFO 71472 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-10-14 16:21:56.616  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : Starting SpringBootVuejsApplication using Java 11.0.12 on DMAL-Laptop with PID 71472 (C:\Users\Lab usser\Documents\GitHub\hogwarts-master\hogwarts-master\backend\target\classes started by Lab usser in C:\Users\Lab usser\Documents\GitHub\hogwarts-master)
+2021-10-14 16:21:56.618  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : No active profile set, falling back to default profiles: default
+2021-10-14 16:21:57.352  INFO 71472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 16:21:57.353  INFO 71472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-10-14 16:21:57.420  INFO 71472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 16:21:57.478  INFO 71472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-10-14 16:21:57.566  INFO 71472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-10-14 16:21:57.627  INFO 71472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-14 16:21:57.636  INFO 71472 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-10-14 16:21:57.693  WARN 71472 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): de.jonashackt.springbootvuejs.domain.gdsrecordviewId
+2021-10-14 16:21:57.695  WARN 71472 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): de.jonashackt.springbootvuejs.domain.gdsrecordviewId
+2021-10-14 16:21:57.751  INFO 71472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-14 16:21:57.812  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : url=jdbc:postgresql://localhost:5432/hogwarttest
+2021-10-14 16:21:57.813  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : user=postgres
+2021-10-14 16:21:57.814  INFO 71472 --- [restartedMain] d.j.s.controller.postgresController      : password=trove
+2021-10-14 16:21:58.209  INFO 71472 --- [restartedMain] d.j.s.SpringBootVuejsApplication         : Started SpringBootVuejsApplication in 1.644 seconds (JVM running for 7448.461)

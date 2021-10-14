@@ -11,9 +11,7 @@ import java.util.ArrayList;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-/** This file will 
-  * @author Chua Huey Eng
- */
+
 public class DownloadFTPFileThread extends NotificationThread
 {
     private static final Logger LOG = LoggerFactory.getLogger(DownloadFTPFileThread.class);
